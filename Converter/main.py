@@ -12,7 +12,7 @@ miles = kilometers * conv_fac
 print('%0.4f kilometers is equal to %0.4f miles' %(kilometers,miles))
 
 # Vprasanje o Nadalnji uporabi
-print "Do you want to do a new conversion? "
+print "Do you want to do a new conversion? Answer yes or no. "
 answer = (raw_input())
 
 # Loop
@@ -23,7 +23,7 @@ while answer == "yes":
     miles = kilometers * conv_fac
     print('%0.4f kilometers is equal to %0.4f miles' % (kilometers, miles))
     # Vprasanje o Nadalnji uporabi
-    print "Do you want to do a new conversion? "
+    print "Do you want to do a new conversion? Answer yes or no. "
     answer = (raw_input())
 if answer == "no":
     print "Goodbye my name is KiloMile and i'm out DOOOOITZ"
